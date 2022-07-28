@@ -34,3 +34,28 @@ body{
     outline: none;
     border:none;
 }
+
+.card{
+    border-radius: 1rem;
+    background-color: black;
+    padding:5px ;
+    width: 180px;
+
+}
+
+.contain{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax (150px, 1fr));
+    grid-gap: 2rem;
+    width: 80%;
+    margin: 25px auto;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card h4{
+    font-size: 20px;
+    color: white;
+}
