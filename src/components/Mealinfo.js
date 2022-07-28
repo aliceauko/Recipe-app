@@ -36,7 +36,7 @@ function Mealinfo() {
           <div className="res-details">
           
             <div className="ingredients">
-              <h2>ingredients</h2>
+              <h2>Ingredients</h2>
               <h4>
                 {items.strIngredient1}:{items.strMeasure1}
               </h4>
@@ -63,16 +63,17 @@ function Mealinfo() {
               </h4>
             </div>
             <div className="recipeInstructions">
-              <h2>Instrusctions</h2> <br />
+              <h2>Instructions</h2> <br />
               <h4>{items.strInstructions}</h4>
             </div>
-            <div className='video'>
+            
+          </div>
+          <div className='video'>
             <iframe src={`https://www.youtube.com/embed/${vid}`}>
 
             </iframe>
 
         </div>
-          </div>
         </>
       )}
     </>
