@@ -7,7 +7,7 @@ function MealList({ data }) {
   return (
     <>
       {!data
-        ? "Not found"
+        ? "Sorry! Meal not found"
         : data.map((item) => {
             return (
               <div
