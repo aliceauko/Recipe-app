@@ -1,12 +1,20 @@
 import React from 'react'
 
-function MealList() {
+function MealList({data}) {
+    console.log(data)
   return (
     <>
-    <div className='card'>
-        <img src="https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg" alt=""></img>
-        <h4>Spicy Arrabiata Penne</h4>
-    </div>
+    {
+        (!data)?"Not found": data.map(item=>{
+            return(
+                <div className='card'>
+                <img src={item.strMealThumb} alt=""></img>
+                <h4>{item.strMeal}</h4>
+            </div>
+            )
+        })
+    }
+  
     </>
   )
 }

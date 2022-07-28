@@ -1,9 +1,20 @@
 import React from 'react'
 
 function Recipe() {
-    const letters =["A", "B","C","D","E","F","G"]
+    const letters =["A", "B","C","D","E","F","G","H", "I","J","K","L","M","N","O", "P","Q","R","S","T","U", "V", "W", "X" ,"Y", "Z"]
+    var num=0;
   return (
   <>
+  {
+    letters.map(item=>{
+        return(
+            <div className='index' key={num++}>
+                <h4>{item}</h4>
+            </div>
+        )
+
+    })
+  }
   </>
   )
 }
