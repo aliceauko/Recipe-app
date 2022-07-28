@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 
-let vid ="";
+let vid = "";
 
 function Mealinfo() {
   const [items, setItems] = useState();
@@ -14,10 +14,10 @@ function Mealinfo() {
       });
   }
 
-  if(items){
-    const url= items.strYoutube;
-    const strurl= url.split("=");
-    vid= strurl[strurl.length-1]
+  if (items) {
+    const url = items.strYoutube;
+    const strurl = url.split("=");
+    vid = strurl[strurl.length - 1];
   }
   return (
     <>
@@ -34,7 +34,6 @@ function Mealinfo() {
             </div>
           </div>
           <div className="res-details">
-          
             <div className="ingredients">
               <h2>Ingredients</h2>
               <h4>
@@ -66,14 +65,10 @@ function Mealinfo() {
               <h2>Instructions</h2> <br />
               <h4>{items.strInstructions}</h4>
             </div>
-            
           </div>
-          <div className='video'>
-            <iframe src={`https://www.youtube.com/embed/${vid}`}>
-
-            </iframe>
-
-        </div>
+          <div className="video">
+            <iframe src={`https://www.youtube.com/embed/${vid}`}></iframe>
+          </div>
         </>
       )}
     </>

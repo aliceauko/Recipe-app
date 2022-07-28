@@ -37,9 +37,7 @@ function Meals() {
       <div className="meals">
         <div className="header">
           <h1>Mwandisha Recepies</h1>
-          <h4>
-            The ABC of food...
-          </h4>
+          <h4>The ABC of food...</h4>
         </div>
 
         <div className="search">
