@@ -33,6 +33,7 @@ function Mealinfo() {
               <h3>Category: {items.strCategory}</h3>
             </div>
           </div>
+
           <div className="res-details">
             <div className="ingredients">
               <h2>Ingredients</h2>
@@ -61,6 +62,8 @@ function Mealinfo() {
                 {items.strIngredient8}:{items.strMeasure8}
               </h4>
             </div>
+
+
             <div className="recipeInstructions">
               <h2>Instructions</h2> <br />
               <h4>{items.strInstructions}</h4>
@@ -69,6 +72,7 @@ function Mealinfo() {
           <div className="video">
             <iframe src={`https://www.youtube.com/embed/${vid}`}></iframe>
           </div>
+          
         </>
       )}
     </>
