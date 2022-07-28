@@ -36,12 +36,9 @@ function Meals() {
     <>
       <div className="meals">
         <div className="header">
-          <h1>Search for food recipe</h1>
+          <h1>Mwandisha Recepies</h1>
           <h4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            dolorem omnis quae consectetur saepe velit vitae, delectus corporis,
-            accusamus iste numquam quisquam quos? Quae suscipit dignissimos
-            veniam optio, aliquid ipsa?
+            The ABC of food...
           </h4>
         </div>
 
@@ -51,6 +48,7 @@ function Meals() {
             className="searchbox"
             onChange={(e) => setSearchmeal(e.target.value)}
             onKeyPress={handleSearchmeal}
+            placeholder="Search by meal name and press enter..."
           ></input>
         </div>
         <div className="indexHolder">

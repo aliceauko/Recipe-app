@@ -24,15 +24,27 @@ body{
     font-weight: 800;
     letter-spacing: 1px;
     font-size: 45px;
+  
+}
+.header h4{
+    font-style:italic;
 }
 .searchbox{
-    width:300px;
+    width:400px;
     margin: 1rem 0;
-    height: 40px;
+    height: 30px;
     border-radius: 10px;
     padding: 0.3rem 1rem;
     outline: none;
     border:none;
+}
+
+.contain{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    width: 80%;
+    margin: 25px auto;
 }
 
 .card{
@@ -45,12 +57,8 @@ body{
 
 }
 
-.contain{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 1rem;
-    width: 80%;
-    margin: 25px auto;
+.card:hover{
+    cursor: pointer;
 }
 
 img{
@@ -82,6 +90,7 @@ img{
 }
 .index:hover{
     cursor: pointer;
+    background-color:#505050;
 }
 
 .details img{
@@ -121,6 +130,7 @@ text-align: center;
 .ingredients h4{
     margin-top: 1.5rem;
     font-weight: bold;
+    font-style:italic;
 
 }
 
