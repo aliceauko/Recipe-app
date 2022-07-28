@@ -20,6 +20,11 @@ function Meals() {
         </div>
         <div className="contain">
           <MealList/>
+          <MealList/>
+          <MealList/>
+          <MealList/>
+          <MealList/>
+          <MealList/>
 
         </div>
       </div>
