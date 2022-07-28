@@ -7,6 +7,7 @@ function Meals() {
 const[baseurl, setBaseurl]= useState("https:/www.themealdb.com/api/json/v1/1/search.php?f=a");
 const [item, setItem]= useState();
 const[show, setShow]=useState(false)
+const[searchmeal, setSearchmeal]=useState("")
 
 useEffect(()=>{
   fetch(baseurl)
@@ -20,6 +21,13 @@ useEffect(()=>{
 },[baseurl])
   function handleIndex(letters){
     setBaseurl(`https:/www.themealdb.com/api/json/v1/1/search.php?f=${letters}`)
+  }
+
+  function handleSearchmeal(e){
+    if(e.key=="Enter"){
+      setBaseurl(`https:/www.themealdb.com/api/json/v1/1/search.php?s=${searchmeal}`)
+    }
+
   }
   return (
     <>
@@ -35,7 +43,7 @@ useEffect(()=>{
         </div>
 
         <div className="search">
-          <input type="text" className="searchbox"></input>
+          <input type="text" className="searchbox" onChange={e=>setSearchmeal(e.target.value)} onKeyPress={handleSearchmeal}></input>
         </div>
         <div className="indexHolder">
           <Recipe setIndex={(letters)=>handleIndex(letters)}/>
