@@ -18,6 +18,9 @@ useEffect(()=>{
   })
 
 },[baseurl])
+  function handleIndex(letters){
+    setBaseurl(`https:/www.themealdb.com/api/json/v1/1/search.php?f=${letters}`)
+  }
   return (
     <>
       <div className="meals">
@@ -35,7 +38,7 @@ useEffect(()=>{
           <input type="text" className="searchbox"></input>
         </div>
         <div className="indexHolder">
-          <Recipe />
+          <Recipe setIndex={(letters)=>handleIndex(letters)}/>
         </div>
         <div className="contain">
           
