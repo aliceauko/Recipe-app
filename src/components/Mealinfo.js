@@ -6,7 +6,7 @@ let vid = "";
 function Mealinfo() {
   const [items, setItems] = useState();
   const { MealId } = useParams();
-  if (MealId != "") {
+  if (MealId !=="") {
     fetch(`https:/www.themealdb.com/api/json/v1/1/lookup.php?i=${MealId}`)
       .then((response) => response.json())
       .then((data) => {
@@ -70,7 +70,7 @@ function Mealinfo() {
             </div>
           </div>
           <div className="video">
-            <iframe src={`https://www.youtube.com/embed/${vid}`}></iframe>
+            <iframe title={vid} src={`https://www.youtube.com/embed/${vid}`}></iframe>
           </div>
           
         </>
