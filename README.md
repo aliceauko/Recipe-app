@@ -17,7 +17,10 @@ Using React routers to anvigate from one page to the next
 ******
 
 ## SCREENSHOTS
-  ![image](./src/Images/localhost_3002_.png ,./src/Images/localhost_3002_ (1).png,./src/Images/localhost_3002_ (2).png,./src/Images/localhost_3002_ (3).png)
+  ![image](./src/Images/localhost_3002_.png),
+  ![image2](./src/Images/localhost_3002_ (1).png),
+  ![image3](./src/Images/localhost_3002_ (2).png),
+  ![image4](./src/Images/localhost_3002_ (3).png),
 
 
 ********
