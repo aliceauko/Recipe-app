@@ -28,24 +28,29 @@ function Reviews() {
 
   return (
     <div className="form-div">
-    <form className="review-form" >
-      <label>Name</label>
-      <input
-        placeholder="name"
-        type="text"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
+      <form className="review-form">
+        <label>Name</label>
+        <input
+          placeholder="name"
+          type="text"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
 
-      <label>Email</label>
-      <input
-        placeholder="email"
-        type="text"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <input  type="submit" value="submit data" className="btn" onSubmit={handleSubmit} />
-    </form>
+        <label>Email</label>
+        <input
+          placeholder="email"
+          type="text"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="submit"
+          value="submit data"
+          className="btn"
+          onSubmit={handleSubmit}
+        />
+      </form>
     </div>
   );
 }

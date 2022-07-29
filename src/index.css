@@ -10,35 +10,31 @@ body {
   background-color: #f4c95d;
 }
 
-nav{
- 
+nav {
   font-size: 35px;
   text-align: center;
-  font-family:'Courier New', Courier, monospace;
-  color:white;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
   font-weight: 900;
   text-decoration: none;
   width: 100%;
   position: fixed;
-  top:0;
+  top: 0;
   overflow: hidden;
-  
 }
 ul {
-    
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color:black;
+  background-color: black;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   top: 0;
   border-bottom-left-radius: 30%;
   border-top-right-radius: 30%;
   text-decoration: none;
-  
 }
 
 .meals {
@@ -131,7 +127,7 @@ img {
   height: 400px;
 }
 .details .inner-details {
-  background-color:black;
+  background-color: black;
   position: absolute;
   transform: translate (-50%, -50%);
   box-shadow: 0, 5 px 5px rgba(0, 0, 0, 0.5);
@@ -179,44 +175,40 @@ iframe {
   margin-left: 10%;
 }
 
-.about{
+.about {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   min-height: 100vh;
- 
 }
-.about h1{
+.about h1 {
   font-weight: 1000;
   font-size: 80px;
 }
 
-.about p{
-  font-size:20px ;
+.about p {
+  font-size: 20px;
 }
-.form-div{
-   height: 200px;
-   width: 300px;
-   margin-left: 550px;
-   background-color:black;
-   margin-top: 200px;
-   border-radius: 10px;
-   display: flex;
-
+.form-div {
+  height: 200px;
+  width: 300px;
+  margin-left: 550px;
+  background-color: black;
+  margin-top: 200px;
+  border-radius: 10px;
+  display: flex;
 }
 
-.review-form{
+.review-form {
   margin-left: 20px;
-  
- 
 }
 
-.review-form input{
+.review-form input {
   border-radius: 20 px;
 }
-.btn{
-  background-color:#f4c95d;
+.btn {
+  background-color: #f4c95d;
   border: none;
   color: white;
   padding: 14px 28px;
@@ -230,6 +222,6 @@ iframe {
   border-radius: 10px;
 }
 
-.btn:hover{
+.btn:hover {
   cursor: pointer;
 }
