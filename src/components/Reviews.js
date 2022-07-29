@@ -44,7 +44,7 @@ function Reviews() {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      <input type="submit" value="submit data" className="btn" onSubmit={handleSubmit} />
+      <input  type="submit" value="submit data" className="btn" onSubmit={handleSubmit} />
     </form>
     </div>
   );
