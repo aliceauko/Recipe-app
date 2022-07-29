@@ -27,6 +27,7 @@ function Reviews() {
   };
 
   return (
+    <div className="form-div">
     <form className="review-form" >
       <label>Name</label>
       <input
@@ -45,6 +46,7 @@ function Reviews() {
       />
       <input type="submit" value="submit data" className="btn" onSubmit={handleSubmit} />
     </form>
+    </div>
   );
 }
 

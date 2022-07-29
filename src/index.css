@@ -195,12 +195,19 @@ iframe {
 .about p{
   font-size:20px ;
 }
+.form-div{
+   height: 200px;
+   width: 300px;
+   margin-left: 550px;
+   background-color:black;
+   margin-top: 200px;
+   border-radius: 10px;
+   display: flex;
+
+}
 
 .review-form{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
+  margin-left: 20px;
+  
  
 }
