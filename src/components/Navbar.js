@@ -20,7 +20,7 @@ function Navbar() {
             to="/reviews"
             style={{ textDecoration: "none", color: "white" }}
           >
-            Reviews
+            Subscribe
           </Link>
         </li>
       </ul>

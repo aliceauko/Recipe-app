@@ -1,7 +1,7 @@
 import React from "react";
 import Meals from "./components/Meals";
 import Mealinfo from "./components/Mealinfo";
-import Reviews from "./components/Reviews";
+import Reviews from "./components/Subscribe";
 import About from "./components/About";
 import Layout from "./components/Layout";
 import { Routes, Route } from "react-router-dom";

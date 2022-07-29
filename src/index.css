@@ -211,6 +211,10 @@ iframe {
   
  
 }
+
+.review-form input{
+  border-radius: 20 px;
+}
 .btn{
   background-color:#f4c95d;
   border: none;
