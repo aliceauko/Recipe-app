@@ -43,7 +43,7 @@ Using React routers to anvigate from one page to the next
 Run npm install to install the prerequisites and then npm start
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.](aliceauko.github.io/recipe-app/)
+Or you can access the web application directly via this [LINK.](https://recipe-app-git-main-aliceauko.vercel.app/)
 *****
 
 ## Technologies Used
