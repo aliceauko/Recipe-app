@@ -5,7 +5,7 @@ import Recipe from "./Recipe";
 
 function Meals() {
   const [baseurl, setBaseurl] = useState(
-    "https:/www.themealdb.com/api/json/v1/1/search.php?f=a"
+    "https://www.themealdb.com/api/json/v1/1/search.php?f=a"
   );
   const [item, setItem] = useState();
   const [show, setShow] = useState(false);
@@ -24,7 +24,7 @@ function Meals() {
 
   function handleIndex(letters) {
     setBaseurl(
-      `https:/www.themealdb.com/api/json/v1/1/search.php?f=${letters}`
+      `https://www.themealdb.com/api/json/v1/1/search.php?f=${letters}`
     );
   }
 
@@ -33,7 +33,7 @@ function Meals() {
   function handleSearchmeal(e) {
     if (e.key === "Enter") {
       setBaseurl(
-        `https:/www.themealdb.com/api/json/v1/1/search.php?s=${searchmeal}`
+        `https://www.themealdb.com/api/json/v1/1/search.php?s=${searchmeal}`
       );
     }
   }

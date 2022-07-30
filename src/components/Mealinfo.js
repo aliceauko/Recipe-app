@@ -7,7 +7,7 @@ function Mealinfo() {
   const [items, setItems] = useState();
   const { MealId } = useParams();
   if (MealId !=="") {
-    fetch(`https:/www.themealdb.com/api/json/v1/1/lookup.php?i=${MealId}`)
+    fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${MealId}`)
       .then((response) => response.json())
       .then((data) => {
         setItems(data.meals[0]);
