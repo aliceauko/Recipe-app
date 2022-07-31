@@ -42,7 +42,7 @@ li{
 }
 
 li:hover{
-background-color:#FFF36D;
+background-color:#5e5928;
 color: black;
 }
 
@@ -121,7 +121,7 @@ img {
 }
 .index:hover {
   cursor: pointer;
-  background-color: #505050;
+  background-color:#5e5928;
 }
 .details {
   display: flex;
@@ -200,16 +200,22 @@ iframe {
   font-size: 20px;
 }
 .form-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 500px;
   height: 200px;
-  width: 300px;
-  margin-left: 550px;
-  background-color: black;
-  margin-top: 200px;
   border-radius: 10px;
-  display: flex;
+ 
 }
 
 .review-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-left: 20px;
 }
 
@@ -233,4 +239,7 @@ iframe {
 
 .btn:hover {
   cursor: pointer;
+  color: white;
+  background-color: black;
+  border-style: double;
 }
