@@ -7,14 +7,14 @@
 }
 
 body {
-  background-color: #f4c95d;
+  background-color:white;
 }
 
 nav {
-  font-size: 35px;
+  font-size: 28px;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  color: white;
+ 
   font-weight: 900;
   text-decoration: none;
   width: 100%;
@@ -35,6 +35,15 @@ ul {
   border-bottom-left-radius: 30%;
   border-top-right-radius: 30%;
   text-decoration: none;
+  color: white;
+}
+li{
+  color: white;
+}
+
+li:hover{
+background-color:#FFF36D;
+color: black;
 }
 
 .meals {
@@ -61,8 +70,7 @@ ul {
   height: 30px;
   border-radius: 10px;
   padding: 0.3rem 1rem;
-  outline: none;
-  border: none;
+  
 }
 
 .contain {
